@@ -37,7 +37,7 @@ public class Player {
 	 * @param cell the new cell of this player
 	 */
 	public void moveTo(Cell cell) {
-		nCell = cell.getndex();
+		nCell = cell.getIndex();
 		cell.welcome(this);
 	}
 	/**
